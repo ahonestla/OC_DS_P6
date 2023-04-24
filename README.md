@@ -1,14 +1,29 @@
-# Classifiez automatiquement des biens de consommation
-OPENCLASSROOMS - Formation Data Scientist - Projet 6
+## 👕 Classification of consumer goods
+OPENCLASSROOMS - Data Scientist - Project 6
 
-Vous êtes Data Scientist au sein de l’entreprise "**Place de marché**”, qui souhaite lancer une marketplace e-commerce.
+This repository contains notebooks for a machine learning project that predicts classes of consumer goods based on their picture and their description. 
 
-![image](https://user-images.githubusercontent.com/111356254/209666524-d01dfa36-6f69-412e-9b6a-cfb855a7506a.png)
+### 📊 Data
 
-Sur la place de marché, des vendeurs proposent des articles à des acheteurs en postant une photo et une description.
+The dataset used for this project is 1050 articles defined by a description and a single picture.
 
-Pour l'instant, l'attribution de la catégorie d'un article est effectuée manuellement par les vendeurs, et est donc peu fiable. De plus, le volume des articles est pour l’instant très petit.
+### 📁 Files
 
-Pour rendre l’expérience utilisateur des vendeurs (faciliter la mise en ligne de nouveaux articles) et des acheteurs (faciliter la recherche de produits) la plus fluide possible, et dans l'optique d'un passage à l'échelle, **il devient nécessaire d'automatiser cette tâche**.
+- *barbier_victor_1_notebook_112022.ipynb* : Text and image machine learning models
+- *barbier_victor_2_bert_tuning_112022.ipynb* : Fine-tuning of the BERT model on the dataset descriptions
+- *barbier_victor_3_cnn_tuning_112022.ipynb* : Fine-tuning of the ResNet50 model on the dataset images
+- *barbier_victor_4_presentation_112022.pdf*: Final presentation of the project
 
-Linda, Lead Data Scientist, vous demande donc d'étudier la faisabilité d'un **moteur de classification** des articles en différentes catégories, avec un niveau de précision suffisant.
+### 🛠️ Tools
+
+- Python 3.x
+- Jupyter Notebook
+- NumPy
+- Pandas
+- Matplotlib / Seaborn
+- Spacy
+- Scikit-learn : KMeans, t-SNE
+- Pytorch : BERT, ResNet50
+- Tensorflow : Universal Sentence Encoder
+- fastText
+- ORB
